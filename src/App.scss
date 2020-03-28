@@ -1,0 +1,33 @@
+.header{
+  position: sticky;
+  padding: 5px;
+  background: blue;
+  color: white;
+
+  h1 {
+    display: inline-block;
+  }
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    float: right;
+  }
+
+}
+
+.header ul li {
+  display: inline-block;
+  margin: 20px
+}
+
+.header ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+}
+
+.header ul li a:hover {
+  text-decoration: underline;
+}
